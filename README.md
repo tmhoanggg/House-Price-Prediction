@@ -8,7 +8,8 @@ This repository contains the code and accompanying report for the House Price Pr
 
 This project follows several key stages:  
 
-- **Data Collection:**  
+- **Data Collection:**
+  - Collected data from batdongsan.com.vn through web scraping with **BeautifulSoup**.
   - Extracted data using **RegEx** and **LLM-based methods** to improve feature accuracy for `bedroom`, `wc`, and `frontage`.  
 
 - **Data Preprocessing:**  
