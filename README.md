@@ -18,7 +18,7 @@ This project follows several key stages:
 
 - **Feature Engineering:**  
   - Clustered locations with **KMeans** to capture spatial patterns.  
-  - Added **population density** as a demand-related feature.  
+  - Added **`population_density`** as a demand-related feature.  
   - Created **`area_used`** by combining area and floor data—this was the most influential feature.  
 
 - **Modeling:**  
