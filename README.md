@@ -63,10 +63,10 @@ House-Price-Prediction/
 │   ├── population_density.csv # Population density data of Vietnamese provinces (used for feature engineering)
 │   ├── raw_data.csv # Scraped raw text data (unprocessed)
 │   ├── transformed_data.csv # Extracted useful features using LLMs and RegEx
-├── scr.ipynb # Main Jupyter Notebook with full project workflow
 ├── ExperimentalReport_Group12_22KDL1.pdf # Project report (PDF) 
 ├── ProjectRequirement.pdf # Project guidelines and requirements
 ├── README.md # Project overview and documentation
+├── main.ipynb # Main Jupyter Notebook with full project workflow
 ```
 
 ## Conclusion
