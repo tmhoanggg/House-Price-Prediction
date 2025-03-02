@@ -4,35 +4,25 @@
 
 This repository contains the code and accompanying report for the House Price Prediction project, developed as the final coursework of our Introduction to Data Science course. The goal of this project is to predict house prices by leveraging advanced data collection, preprocessing, and machine learning techniques.
 
-## Project Description
+## Project Description  
 
-The project consists of several key stages:
+This project follows several key stages:  
 
 - **Data Collection:**  
-  Raw data was collected using two methods:  
-  - **RegEx Extraction:** Initially used to scrape data from raw files.  
-  - **LLM Extraction:** Employed to supplement the extraction process, especially for challenging features such as `bedroom`, `wc`, and `frontage`. This combination improved the feature correlation with the target variable.
+  - Extracted data using **RegEx** and **LLM-based methods** to improve feature accuracy for `bedroom`, `wc`, and `frontage`.  
 
 - **Data Preprocessing:**  
-  The dataset required significant cleaning:
-  - **Handling Outliers:**  
-    - For the target variable `price`, outliers were defined outside the range of 0.1B to 1000B.  
-    - Two methods were evaluated: capping (using the 5th and 95th percentiles) and the IQR method—with IQR ultimately proving more effective.
-  - **Handling Missing Values:**  
-    - For `price`, the options were to impute missing values using semi-supervised learning or to drop them. Given the low frequency of missing target values, the latter was chosen.
-    - For other features, two imputation methods were compared. Although mean imputation (Method 1) yielded better performance metrics, a complementary imputation strategy (Method 2) was ultimately selected to prevent overfitting and maintain data variability.
-- **Feature Engineering**  
-  To enhance model performance, we introduced several new features:  
+  - **Outliers:** Removed extreme values in `price` using the **IQR method**.  
+  - **Missing Values:** Dropped missing `price` entries and applied a balanced imputation strategy for other features.  
 
-    - Used KMeans clustering to group locations and capture spatial patterns.  
-    - Added population density to provide insights into demand.  
-    - Created the `area_used` feature by combining area and floor data, which turned out to be the most influential factor in predictions.  
- 
+- **Feature Engineering:**  
+  - Clustered locations with **KMeans** to capture spatial patterns.  
+  - Added **population density** as a demand-related feature.  
+  - Created **`area_used`** by combining area and floor data—this was the most influential feature.  
+
 - **Modeling:**  
-  A variety of regression models were tested, including:
-  - Linear Regression, Ridge, and Lasso
-  - Decision Tree, Random Forest, XGBoost, and CatBoost  
-  A Neural Network model using PyTorch was also built; however, it was excluded from the final analysis because its performance was not significantly better than that of traditional machine learning models.
+  - Tested **Linear Regression, Ridge, Lasso, Decision Tree, Random Forest, XGBoost, and CatBoost**.  
+  - A **Neural Network (PyTorch)** was explored but not used in the final model due to marginal performance gains.  
 
 - **Evaluation:**  
   Model performance was assessed using metrics such as Mean Squared Error (MSE), Mean Absolute Error (MAE), and R². The comparison between the two imputation methods is summarized in the table below:
