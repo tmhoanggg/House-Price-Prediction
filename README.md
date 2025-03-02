@@ -50,8 +50,9 @@ The project consists of several key stages:
 
 </div>
 
-![image](https://github.com/user-attachments/assets/014255b6-a9d3-4759-8d14-3e36d96abaf8)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/014255b6-a9d3-4759-8d14-3e36d96abaf8" alt="image">
+</p>
 
 ## Key Insights
 
