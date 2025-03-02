@@ -38,6 +38,7 @@ The project consists of several key stages:
   Model performance was assessed using metrics such as Mean Squared Error (MSE), Mean Absolute Error (MAE), and R². The comparison between the two imputation methods is summarized in the table below:
 
 <div align="center">
+
 | Model         | MSE      | MAE      | R²      |
 |--------------|----------|----------|----------|
 | Random Forest | 47.0437  | 4.0738   | 0.2418   |
@@ -46,6 +47,7 @@ The project consists of several key stages:
 | Linear       | 49.1161  | 4.2253   | 0.2084   |
 | Ridge        | 49.1163  | 4.2253   | 0.2084   |
 | Lasso        | 49.1561  | 4.2266   | 0.2078   |
+
 </div>
 
 ![image](https://github.com/user-attachments/assets/014255b6-a9d3-4759-8d14-3e36d96abaf8)
