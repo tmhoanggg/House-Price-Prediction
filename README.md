@@ -58,15 +58,15 @@ This project follows several key stages:
 ## Repository Structure
 ```
 House-Price-Prediction/
-├── Data/ # Raw and processed data files 
-│   ├── final_data.csv # # The final dataset ready for model training
-│   ├── population_density.csv # Population density data of Vietnamese provinces (used for feature engineering)
-│   ├── raw_data.csv # Scraped raw text data (unprocessed)
-│   ├── transformed_data.csv # Extracted useful features using LLMs and RegEx
-├── ExperimentalReport_Group12_22KDL1.pdf # Project report (PDF) 
-├── ProjectRequirement.pdf # Project guidelines and requirements
-├── README.md # Project overview and documentation
-├── main.ipynb # Main Jupyter Notebook with full project workflow
+├── Data/                                   # Raw and processed data files 
+│   ├── final_data.csv                      # The final dataset ready for model training
+│   ├── population_density.csv              # Population density data of Vietnamese provinces (used for feature engineering)
+│   ├── raw_data.csv                        # Scraped raw text data (unprocessed)
+│   ├── transformed_data.csv                # Extracted useful features using LLMs and RegEx
+├── ExperimentalReport_Group12_22KDL1.pdf   # Project report (PDF) 
+├── ProjectRequirement.pdf                  # Project guidelines and requirements
+├── README.md                               # Project overview and documentation
+├── main.ipynb                              # Main Jupyter Notebook with full project workflow
 ```
 
 ## Conclusion
