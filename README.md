@@ -76,3 +76,10 @@ This project explored various approaches to predicting house prices, from data c
 While the models achieved promising results, there is always room for improvement. Future work could focus on expanding the dataset, optimizing hyperparameters, and exploring deep learning approaches for better performance.  
 
 This project provided valuable insights into data-driven decision-making and reinforced the importance of thorough data preprocessing and feature engineering in predictive analytics.  
+
+## Contributors
+
+- Truong Minh Hoang
+- Nguyen Thi Xuan Huong
+- Phan Thi Ngoc Linh
+- Ho Tran Anh Thu
